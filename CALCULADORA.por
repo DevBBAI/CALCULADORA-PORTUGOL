@@ -32,7 +32,7 @@ pare
 
 caso 3:
 resp = n1 * n2
-escreva(n1, "/", n2, "=", resp)
+escreva(n1, "x", n2, "=", resp)
 pare
 
 caso 4:
