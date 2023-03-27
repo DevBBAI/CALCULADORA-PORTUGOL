@@ -5,17 +5,17 @@ caracter repetir
 
 enquanto(repetir != 2) {
   
-escreva("Digite um número: ") 
+escreva("Digite um nÃºmero: ") 
 leia(n1)
 
-escreva("Digite outro número: ")
+escreva("Digite outro nÃºmero: ")
 leia(n2)
 
-escreva("informe a operação desejada: \n")
+escreva("informe a operaÃ§Ã£o desejada: \n")
 escreva(" 1- Soma \n")
-escreva(" 2- Subtração \n")
-escreva(" 3- Multiplicação \n")
-escreva(" 4- Divisão \n")
+escreva(" 2- SubtraÃ§Ã£o \n")
+escreva(" 3- MultiplicaÃ§Ã£o \n")
+escreva(" 4- DivisÃ£o \n")
 leia(op)
 
 escolha(op){
@@ -31,7 +31,7 @@ escreva(n1, "-", n2, "=", resp)
 pare
 
 caso 3:
-resp = n1 / n2
+resp = n1 * n2
 escreva(n1, "/", n2, "=", resp)
 pare
 
@@ -41,11 +41,11 @@ escreva(n1, "/", n2, "=", resp)
 pare
 
 caso contrario 
-escreva("Opção inválida!")
+escreva("OpÃ§Ã£o invÃ¡lida!")
 }
 escreva("\nDeseja realizar outra conta? \n")
 escreva(" 1- Sim \n")
-escreva(" 2- Não \n")
+escreva(" 2- NÃ£o \n")
 leia(repetir)
 
  }
